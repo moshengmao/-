@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">zhihu</string>
+    <string name="log">登录</string>
+    <string name="inputName">请输入用户名</string>
+    <string name="inputPassword">请输入密码</string>
+    <string name="hotNews">热门消息</string>
+    <string name="register">注册</string>
+    <string name="userName">用户名</string>
+    <string name="password">密码</string>
+    <string name="confirm">确认</string>
+    <string name="uerName">用户名</string>
+    <string name="collect">我的收藏</string>
+    <string name="column">栏目总览</string>
+    <string name="username">用户名</string>
+    <string name="take_photo">拍照</string>
+    <string name="change_head">修改头像</string>
+</resources>

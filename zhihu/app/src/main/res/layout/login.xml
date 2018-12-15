@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.zhihu.LoginActivity"
+    android:orientation="vertical">
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log"
+            android:textSize="35sp"
+            android:textColor="#00008b"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uerName"
+            android:textSize="20sp"
+            android:textColor="#483d8b"/>
+        <EditText
+            android:id="@id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:inputType="text"
+            android:textCursorDrawable="@null"
+            tools:ignore="LabelFor" />
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="20sp"
+            android:textColor="#483d8b"/>
+        <EditText
+            android:id="@id/edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@null"
+            tools:ignore="LabelFor" />
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:backgroundTint="#1C86EE"/>
+    </LinearLayout>
+
+
